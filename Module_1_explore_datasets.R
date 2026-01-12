@@ -36,7 +36,7 @@ options(warn = -1)
 #============================================================================================
 # define working directory
 #============================================================================================
-setwd("C:/Users/JoanCarles/iCloudDrive/Documents/_Universitats/_Bachelors/Salle/data-science/Moduls/Module 1/")
+setwd("C:\Users\Biel Cantera Potente\Desktop\Business Intelligence\data\")
 # Read the CSV file into a dataframe
 df <- read.csv('ONTIME_REPORTING_01.csv')
 
@@ -56,4 +56,5 @@ summary(df)
 
 # Count the number of missing (NA) values in each column of the dataframe
 colSums(is.na(df))
+
 
