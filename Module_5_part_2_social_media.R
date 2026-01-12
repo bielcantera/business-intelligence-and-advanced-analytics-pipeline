@@ -10,7 +10,7 @@ library(corrplot)
 rm(list = ls())
 
 # Set working directory
-setwd("C:/Users/JoanCarles/iCloudDrive/Documents/_Universitats/_Bachelors/Salle/data-science/Moduls/Module 5/Case/")
+setwd("C:\Users\Biel Cantera Potente\Desktop\Business Intelligence\data")
 
 # Load datasets
 flights_data <- read_csv("train_val.csv", show_col_types = FALSE)
@@ -110,6 +110,7 @@ prob_low_satisfaction_cancelled <- mean(cancelled_data$AVG_SATISFACTION < low_sa
 print(paste("Mean Satisfaction for Cancelled Flights:", mean_satisfaction_cancelled))
 print(t_test_result)
 print(paste("Probability of Low Satisfaction for Cancelled Flights:", prob_low_satisfaction_cancelled))
+
 
 
 
